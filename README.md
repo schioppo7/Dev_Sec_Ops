@@ -1,19 +1,17 @@
-# DevSecOps - Cybersecurity Ops with Bash
+# Cybersecurity Ops with Bash Lab
 
-This repository is a guided lab for studying *Cybersecurity Ops with Bash* by Paul Troncone and Carl Albing.
+This repository is a guided laboratory for studying *Cybersecurity Ops with bash*
+by Paul Troncone and Carl Albing.
 
-The goal is to understand each command, run exercises in reproducible virtual machines, verify the results and work only inside authorized lab systems.
 
-## Study method
+## Learning Objectives
 
-For each unit:
-
-1. Read the assigned material.
-2. Write down the expected result.
-3. Run the commands inside the virtual machine.
-4. Keep useful output and errors in the lab notes.
-5. Review mistakes before moving to the next unit.
-
-## Safety rule
-
-Scanning, fuzzing and security testing must only be performed against the virtual machines created for this laboratory or systems with explicit authorization.
+- use the Linux command line confidently;
+- write and debug Bash scripts;
+- use regular expressions to search and validate data;
+- collect, process, and analyze security information;
+- monitor logs, network services, and filesystem changes;
+- understand basic defensive and offensive security workflows;
+- manage users, permissions, logging, and system configuration;
+- document evidence and explain the reasoning behind your results;
+- perform security testing safely inside an authorized virtual laboratory.
