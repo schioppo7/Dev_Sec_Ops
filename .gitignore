@@ -1,2 +1,30 @@
+# Vagrant
 .vagrant/
-*VBoxHeadless-*.log
+*.box
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_rsa_*
+id_ed25519
+id_ed25519_*
+
+# Kubernetes credentials
+.kube/
+kubeconfig
+kubeconfig.*
+*.kubeconfig
+
+# Local output
+*.log
+*.sql
+*.dump
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
